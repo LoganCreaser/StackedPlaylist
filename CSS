@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+        background-color: #000000;
+    }
+
+    .myButton {
+        -moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+        -webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+        box-shadow:inset 0px -3px 7px 0px #29bbff;
+        background-color:#2dabf9;
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+        border:1px solid #0b0e07;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        padding:9px 23px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #263666;
+    }
+    .myButton:hover {
+        background-color:#0688fa;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+
+    .buttonContainer {
+        position: relative;
+        width: 345px;
+        margin: 0 auto;
+    } 	
+
+
+  .video-js {
+ 		height: 450px;
+ 		width: 800px;
+ 		float: left;
+ 	}
+ 	.myplayer {
+      width: 800px;
+      height: 450px;
+      position: relative;
+      margin: 0 auto;
+    }
+
+  .vjs-playlist {
+      float: left;
+      width: 766px;
+    	max-height: 433px;
+      position: relative;
+      top: 15px;
+    }
+
+  .vjs-playlist-item .vjs-playlist-thumbnail::before {
+    padding: 10px 10px 10px 10px;
+  }
+  .vjs-playlist .vjs-playlist-item  {
+    padding: 10px 10px 10px 10px;
+    min-height: 100px;
+
+  }
+  .vjs-playlist-item.vjs-selected {
+    background: #263666;
+  }
+
+  .vjs-mouse.vjs-playlist .vjs-playlist-description {
+      white-space: normal;
+      min-height: 99px;
+    }
+
